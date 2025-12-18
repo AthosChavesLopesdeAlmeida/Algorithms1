@@ -8,9 +8,24 @@ function fibonacci(n) {
     return
   }
 
-  const fibs = [];
-
-  while (x <= n) {
-    x++
+  if (n <= 0) {
+    return 0;
+  } else if(n === 1) {
+    return 1
   }
+
+  const fibs = [0, 1];
+  let a = 0;
+  let b = 1;
+  let next;
+
+  for (let i = 2; i < n; i++) {
+    next = a + b;
+    a = b;
+    b = next
+    fibs.push(b)
+  }
+  console.log(fibs)
 }
+
+fibonacci(7)
