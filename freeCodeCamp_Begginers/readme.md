@@ -1,0 +1,1 @@
+Pasta que guarda qualquer exercício relativo ao curso de algoritmos e estrutura de dados para inicantes do freeCodeCamp
