@@ -1,4 +1,4 @@
-const { List, Node } = require('./singleLinkedlist');
+const { List, Node } = require('../listas_e_arrays/singleLinkedlist');
 
 function merge_sort(linked_list) {
   if (!linked_list || linked_list.head === null) {
